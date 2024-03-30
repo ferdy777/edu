@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
@@ -6,7 +6,7 @@ import menu_icon from "../../assets/menu-icon.png";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
-  let menuRef = useRef();
+  // let menuRef = useRef();
 
   // const handler = () => {
   //   setMobileMenu(false);

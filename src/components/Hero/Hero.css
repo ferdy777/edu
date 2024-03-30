@@ -24,3 +24,8 @@
   line-height: 1.4;
 }
 /* media query */
+@media (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 20px;
+  }
+}
